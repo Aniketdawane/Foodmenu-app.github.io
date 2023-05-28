@@ -1,0 +1,275 @@
+ body{
+    background-color: aliceblue;
+ }
+.nav {
+    /* height: 15vh; */
+    box-shadow: var(--box-shadow);
+    /* position: fixed;
+    width:100% ;
+    z-index: 1000; */
+}
+.cart{
+    /* border: 1px solid red; */
+    color: rgb(3, 53, 54);
+    font-size: 2rem;
+}
+.brand {
+    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
+    color: rgb(15, 184, 3) !important;
+}
+.brand span {
+    font-size: 3rem !important;
+}
+:root {
+    --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+}
+.keys li a {
+    font-size: 1.2rem;
+}
+.keys li a:hover {
+    background: fixed;
+    background-color: rgb(9, 186, 36);
+    border-radius: 5px;
+}
+.Home {
+    background-color: #bc6060;
+    height: 100vh;
+}
+nav form button {
+    background-color: rgb(9, 186, 36) !important;
+}
+nav form button:hover {
+    background-color: rgb(4, 153, 26) !important;
+}
+/* home start */
+.content .slogon {
+    font-size: 2rem;
+    animation: colorchange 1s infinite;
+}
+.content h3 {
+    /* border: 2px solid green; */
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif !important;
+    color: darkslateblue;
+}
+.content p{
+    font-size: 1.5rem;
+    font-weight:500;
+    color: grey;
+}
+.content button{
+    background-color:darkslateblue;
+    border: none;
+    color: white;
+    height:3rem;
+    width:9rem ;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 600px) {
+    .content .slogon {
+      font-size: 1rem;
+    }
+    .content h3,p{
+        font-size: 1rem;
+    }
+    .contant .hero img {
+      display: none;
+        border: 2px solid red;
+
+    }
+  }
+/* animation  start  for home */
+@keyframes colorchange {
+    0% {
+        color: crimson;
+    }
+
+    25% {
+        color: yellow;
+    }
+
+    50% {
+        color: palegreen;
+    }
+
+    75% {
+        color: coral;
+    }
+
+    100% {
+        color: darkblue;
+    }
+}
+/* animation ends */
+
+/* Footer page */
+.footerterms a 
+span {
+    /* color: rgb(233, 231, 228) !important; */
+    transition: all ease 0.2;
+}
+.footerterms .icons {
+    font-size: 2.5rem;
+}
+
+.footerterms .icon:hover {
+    font-size: 3rem;
+    /* background-color: darkgoldenrod; */
+}
+footer {
+    /* border: 1px solid red; */
+    background-color: rgb(25, 7, 71);
+    height: auto;
+    color: aliceblue;
+    font-size: 15px;
+}
+
+/* Footer page */
+/* menu section  starts*/
+.menu{
+    height: 100%;
+    
+    /* border: 1px solid red; */
+}
+.sidebar{
+    height: 100vh;
+    /* border: 1px solid rgb(119, 13, 226); */
+}
+.contant{
+    height: 100%;
+}
+.sidebar h3{
+    color: orangered;
+    padding: 30px 40px;
+} 
+.item img{
+    height: 13rem; 
+}
+
+.item span{
+    border-radius: 5px;
+    background: rgb(245, 201, 239);  
+}
+.item .title{
+    font-family: 'Cedarville Cursive', cursive;
+    color: rgb(0, 0, 0);
+    
+}
+.item .catagory, .type{
+    font-size: 13px ;
+}
+.side-buttons{
+ /* border: 1px solid red; */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+.text-menu{
+    font-size: 3rem;
+}
+
+/* .type-buttons{
+} */
+
+.type-buttons img{
+    border: 3px solid gray;
+    height: 5rem;
+}
+/* menu section ends */
+.category{
+ 
+ background-color: #a16060;     
+}
+/*about */
+
+.about img{
+ height: 16rem;
+}
+
+@media (max-width: 768px) {
+    .about img {
+      height: 10rem;
+    }
+  }
+
+/*about */
+
+/*contact page*/
+.sub{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+     
+ background-color:rgb(143, 124, 77);
+ border-radius: 9px;
+
+  width: 30rem;
+  height: 28rem;
+}
+.main{
+    height: 100vh;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub input{
+    border-radius: 5px;
+    border: 2px solid rgb(2, 186, 242);
+    height: 3rem !important;
+    width: 25rem;
+}
+.sub label{
+    color: white;
+    font-weight:bold;
+}
+.sub h1{
+    padding: 1rem;
+    font-size: 2.7rem;
+    font-weight:bold;
+    color: rgb(247, 203, 6);
+    text-shadow: 2px 2px 2px white;
+}
+.sub button{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(8, 8, 144);
+    font-size: 1rem;
+    border: transparent;
+    border-radius: 8px;
+    height: 2.5rem;
+    width: 6rem;
+}
+.sub .btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.btn h1{
+    font-size: 1rem;
+    
+}
+/*contact page*/
+
+/* cart section */
+.cartpage{
+    height: 100%;
+}
+.Newarrival-img{
+    /* border: 2px solid red; */
+    background-image: url(../imgs/deseert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25rem;
+    width: 50rem;
+}
+/* cart section */
